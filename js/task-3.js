@@ -18,3 +18,11 @@ function checkFileExtension(fileName, ext) {
   }
 }
 checkFileExtension("styles.css", ".css")
+
+function calculateTotal(number) {
+let sum = 0
+let i = 1
+while (number >= i ) {sum +=i; i+=1}
+return sum
+}
+console.log(calculateTotal(300))
